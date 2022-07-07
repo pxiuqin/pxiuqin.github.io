@@ -8,6 +8,3 @@ kramdown:
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
-
-plugins:
-  - jekyll-feed
