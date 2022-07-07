@@ -1,14 +1,14 @@
 ---
 layout: home
-title: 公众号内容
+title: OfficialAccounts
 ---
 
 <div class="topbar">
   <div class="topbar-button">
-    <a href="{{ site.url }}/index.html">公众号内容</a>
+    <a href="{{ site.url }}/index.html">OfficialAccounts</a>
   </div>
   <div class="topbar-button">
-    <a href="{{ site.url }}/tags.html">标签列表</a>
+    <a href="{{ site.url }}/tags.html">Tags</a>
   </div>
   <div class="topbar-button">
     <a href="{{ site.url }}/projects.html">PatternAcademy</a>
@@ -22,10 +22,10 @@ title: 公众号内容
 </div>
 
 <div class="slogan">
-  激发自己的好奇心和想象力
-  检索自己需要的信息和知识
-  训练自己去思考并构建模式
-  尝试去应用和解决实际问题
+  <li>激发自己的好奇心和想象力</li>
+  <li>检索自己需要的信息和知识</li>
+  <li>训练自己去思考并构建模式</li>
+  <li>尝试去应用和解决实际问题</li>
 </div>
 
 <ul>
@@ -43,9 +43,7 @@ title: 公众号内容
   {% for post in site.posts %}
 
   <li class="post-line">
-    <a
-      class="post-title"
-      href="{{ site.baseurl }}{{ post.url }}">
+    <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       {{ post.title }}
     </a>
 
@@ -68,7 +66,7 @@ title: 公众号内容
         <div class="char-counter">
           {{ post.content | strip_html | strip_newlines | remove: " " | size }}字
         </div>
-        
+
         <div class="post-date">
           {{ post.date | date: "%Y-%m-%d" }}
         </div>
