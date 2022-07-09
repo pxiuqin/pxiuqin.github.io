@@ -26,12 +26,12 @@ Thank you for reading my blog, I will share some technical articles and life ide
 
 **注意：** 
 * 如果您使用的是 Ruby 3.0 和 Jekyll 4.2.x 或更早版本，则需要在运行 bundle install 之前，将 webrick gem 添加到项目的 Gemfile 中
-* 如果项目中缺少 Gemfile，使用 bundle init 命令生成 
+* 如果项目中缺少 Gemfile，使用 `bundle init` 命令生成 
 
 ## 使用说明
-* 在 _posts 目录下添加 Markdown 文件，参考👉[Jekyll Posts 使用](https://jekyllrb.com/docs/posts/)
+* 在 `_posts` 目录下添加 Markdown 文件，参考👉[Jekyll Posts 使用](https://jekyllrb.com/docs/posts/)
 * 使用`构建本地测试环境`中的内容进行本地测试
-* 图片内容一般添加到 images 目录中
-* 样式修改的话可以处理 styles 目录下的 css 文件
+* 图片内容一般添加到 `images` 目录中
+* 样式修改的话可以处理 `styles` 目录下的 css 文件
 
 
