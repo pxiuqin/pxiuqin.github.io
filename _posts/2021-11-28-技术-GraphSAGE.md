@@ -237,3 +237,11 @@ class CrossEntropyLoss(nn.Module):
         return loss
 
 ```
+
+### 引用
+
+[1] [Open Graph Benchmark](https://github.com/snap-stanford/ogb)
+
+[2] [DGL 官网](https://docs.dgl.ai/)
+
+[3] [GraphSAGE 论文](https://arxiv.org/pdf/1706.02216.pdf)
